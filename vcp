@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live VCP Stock Screener</title>
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    a.button {
+      display: inline-block;
+      background: #3b82f6;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #2563eb;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 VCP Stock Screener</h1>
+  <p>Click below to view live VCP stocks from trusted screeners:</p>
+
+  <a class="button" href="https://chartink.com/screener/vcp-breakout-pattern-1" target="_blank">
+    📈 View VCP Stocks on Chartink
+  </a>
+
+  <br><br>
+
+  <a class="button" href="https://www.screener.in/screens/606227/vcp-pattern-mixed-best/" target="_blank">
+    📊 View VCP Stocks on Screener.in
+  </a>
+
+  <footer style="margin-top: 3rem; font-size: 0.9rem; color: #64748b;">
+    Created for educational use – Data courtesy of Chartink & Screener.in
+  </footer>
+</body>
+</html>
